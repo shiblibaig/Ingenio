@@ -1,11 +1,14 @@
 <html>
 <head>
 	<title>Chat Bot</title>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="bootstrap.js"></script>
+	<script type="text/javascript" src = "jquery.js"></script>
+	<script type="text/javascript" src = "jquery-ui.js"></script>
+	<script type="text/javascript" src = "bootstrap.js"></script>
 	<script type="text/javascript" src = "main.js"></script>
+	<!--<script type="text/javascript" src = "bootstrap-datepicker.js"></script>-->
 	<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<!--<link rel="stylesheet" type="text/css" href="datepicker.css"/>-->
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 </head>
@@ -20,11 +23,11 @@
 			    <span class="caret"></span>
 			  </button>
 			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><a href="#">Alpha</a></li>
-			    <li><a href="#">Beta</a></li>
-			    <li><a href="#">Gamma</a></li>
+			    <li onClick="bring()" id="l1"><a href="#">Alpha</a></li>
+			    <li onClick="bring()" id="l2"><a href="#">Beta</a></li>
+			    <li onClick="bring()" id="l3"><a href="#">Gamma</a></li>
 			    <li role="separator" class="divider"></li>
-			    <li><a href="#">Gamma - Elite</a></li>
+			    <li onClick="bring()" id="l4"><a href="#">Gamma - Elite</a></li>
 			  </ul>
 			</div>
 
@@ -34,9 +37,9 @@
 			    <span class="caret"></span>
 			  </button>
 			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><a href="#">Uno</a></li>
-			    <li><a href="#">Dos</a></li>
-			    <li><a href="#">Tres</a></li>
+			    <li onClick="bring()" id="l5"><a href="#">Uno</a></li>
+			    <li onClick="bring()" id="l6"><a href="#">Dos</a></li>
+			    <li onClick="bring()" id="l7"><a href="#">Tres</a></li>
 			  </ul>
 			</div>
 
@@ -46,11 +49,11 @@
 			    <span class="caret"></span>
 			  </button>
 			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><a href="#">King</a></li>
-			    <li><a href="#">Queen</a></li>
-			    <li><a href="#">Jack</a></li>
+			    <li onClick="bring1()" id="l8"><a href="#">King</a></li>
+			    <li onClick="bring1()" id="l9"><a href="#">Queen</a></li>
+			    <li onClick="bring1()" id="l10"><a href="#">Jack</a></li>
 			    <li role="separator" class="divider"></li>
-			    <li><a href="#">Joker</a></li>
+			    <li onClick="bring1()" id="l11"><a href="#">Joker</a></li>
 			  </ul>
 			</div>
 
@@ -60,9 +63,9 @@
 			    <span class="caret"></span>
 			  </button>
 			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    <li><a href="#">Do</a></li>
-			    <li><a href="#">Re</a></li>
-			    <li><a href="#">Mi</a></li>
+			    <li onClick="bring1()" id="l12"><a href="#">Do</a></li>
+			    <li onClick="bring1()" id="l3"><a href="#">Re</a></li>
+			    <li onClick="bring1()" id="l4"><a href="#">Mi</a></li>
 			  </ul>
 			</div>
 
@@ -70,15 +73,22 @@
 
 		<div id="div22" class="col-md-12">
 
-			<div id="t1" class="col-md-5 col-md-offset-1">
-	
-			</div>
+		</div>
 
-			<div id="t2" class="col-md-5">
-	
-			</div>
-			
-
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        	<h4 class="modal-title" id="myModalLabel"></h4>
+			      	</div>
+			      	<div class="modal-body">
+			      	</div>
+			      	<div class="modal-footer">
+			      		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+			    </div>
+	  		</div>
 		</div>
 		<p align="center" id="lp" style="margin-top: 1%;" class="col-md-12"><i id="g2" class="fa fa-copyright" style="color: #3b5998"></i> <span id="spanG">2016</span> Ingeniocity Inc.</p>
 	</div>
