@@ -1,0 +1,196 @@
+body{
+	font-family: a;
+}
+/*---------------*/
+/* CSS FOR PAGE 0*/
+/*---------------*/
+#div1{
+	background-color: pink;
+	/*background-image: url(sample.jpg);
+	background-repeat: no-repeat;*/
+	background-size: 100% 100%;
+	-webkit-filter: blur(5px);
+	height: 70%;
+}
+#div2{
+	position: relative;
+	border-style: solid;
+	margin-top: -32%;
+	background-color: #ffdcfe;
+	height: 40%;
+}
+
+#div3 #s1{
+	color:#3b5998;
+}
+#div3 #s2{
+	color: #00aced;
+}
+@media (max-height: 400px){
+	#div2{
+		margin-top: -22%;
+	}
+}
+@media(max-width: 380px){
+	#div2{
+		margin-top: -102%;
+	}
+	#div1{
+		margin-top: 20%;
+	}
+	
+	#pass{
+		margin-top: 6.5%;
+	}
+}
+
+@font-face{
+		font-family: a;
+		src: url(above.ttf);
+}
+
+#cont{
+	margin-top: 5%;
+}
+
+/*Form*/
+#but1{
+	margin-top: 5%;
+}
+#but2{
+	margin-top: 2%;
+}
+#name{
+	margin-top: 1%;
+}
+#pass{
+	margin-top: 2.5%;
+}
+#sub{
+	margin-top: 1%;
+}
+#div3 a{
+	color: black;
+}
+
+/*---------------*/
+/* CSS FOR PAGE 1*/
+/*---------------*/
+
+#cont1{
+	margin-top: 0.1%;
+}
+
+#div11{
+	margin-top: 1%;
+	background-color: #efbcbe;
+	height: 70%;
+	border-right: solid;
+	border-color: white;
+}
+
+#div12{
+	margin-top: 1%;
+	background-color: #ffdcde;
+	height: 70%;
+	border-right: solid;
+	border-color: white;
+	border-left: solid;
+	border-color: white;
+}
+#div13{
+	margin-top: 1%;
+	background-color: #efbcbe;
+	height: 70%;
+	border-left: solid;
+	border-color: white;
+}
+#spanG{
+	font-family: Helvatica;
+}
+
+@media (max-width: 420px){
+	#banner,#lp{
+		font-size: 15px;
+	}
+	#div11,#div12,#div13{
+		text-align: center;
+		border-right: solid;
+		border-color: white;
+		border-left: solid;
+		border-color: white;
+	}
+	#one{
+		margin-top: 3%;
+		text-align: center;
+	}
+	h4{
+		margin-top: 3%;
+		padding-top: 3%;
+	}
+	#div14{
+		text-align: center;
+	}
+}
+
+#boxp1,#boxp2,#boxp3,#boxp4{
+	background-color: #bc4b7d;
+	height: 15%;
+	margin-top: 3%;
+	color: white;
+}
+
+#boxc1{
+	background-color: #7caf36;
+	margin-top: 3%;
+	height: 15%;
+}
+#boxf1,#boxf2{
+	background-color: #f07f9d;
+	height: 15%;
+	margin-top: 3%;
+}
+
+#img{
+	border-radius: 50%;
+}
+#banner{
+	margin-top: -2%;
+}
+/*#da7caf*/
+
+#svg1{
+	background-color: transparent;
+}
+
+#svg1:active{
+	-webkit-transform: scale(0.85);
+}
+
+/*---------------*/
+/* CSS FOR PAGE 2*/
+/*---------------*/
+
+#div21{
+	background-color: #efbcbe;
+	margin-top: 2%;
+	height: 15%;
+}
+
+#div22{
+	background-color: #ffdcde;
+	margin-top: 2%;
+	height: 60%;	
+}
+
+#drop1,#drop2,#drop3,#drop4{
+	display: inline;
+	margin-left: 5%;
+}
+
+@media (max-width: 420px){
+	#drop1,#drop2,#drop3,#drop4{
+		display: inherit;
+		margin-top: 2%;
+	}
+}
