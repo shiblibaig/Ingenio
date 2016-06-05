@@ -178,9 +178,11 @@ body{
 }
 
 #div22{
+	overflow: auto;
 	background-color: #ffdcde;
 	margin-top: 2%;
-	height: 60%;	
+	height: 60%;
+	font-family: open sans;	
 }
 
 #drop1,#drop2,#drop3,#drop4{
@@ -193,9 +195,14 @@ body{
 		display: inherit;
 		margin-top: 2%;
 	}
-	
+
 	#div21{
 		height: 40%;
+	}
+
+	#t1,#t2{
+		border-right: none;
+		border-color: #efbcbe;
 	}
 }
 
@@ -216,3 +223,8 @@ body{
 	border-left: solid;
 	border-color: white;	
 }
+
+#b2{
+	margin-left: 4%; 
+}
+
