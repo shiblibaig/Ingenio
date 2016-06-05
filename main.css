@@ -193,4 +193,26 @@ body{
 		display: inherit;
 		margin-top: 2%;
 	}
+	
+	#div21{
+		height: 40%;
+	}
+}
+
+#t1{
+	position: relative;
+	background-color: #efbcbe;
+	height: 20%;
+	margin-top: 3%;
+	border-right: solid;
+	border-color: white;
+}
+
+#t2{
+	position: relative;
+	background-color: #efbcbe;
+	height: 20%;
+	margin-top: 3%;
+	border-left: solid;
+	border-color: white;	
 }
